@@ -1,3 +1,204 @@
+/* Desktop */
+/*  */
+/* Formatting Container and Div orientation */
+@media (min-width: 1600px) {
+
+.a  {
+  min-height: 20em;
+  text-align: center;
+}
+  
+.apples   {
+  width: 100%;
+}
+  
+.stuff   {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+  
+.fin    {
+  width: 20%;
+}
+  
+.b  {
+  width: 30%;
+  height: 10em;
+}
+  
+.c  {
+  width: 30%;
+  height: 10em;
+}
+  
+.d  {
+  width: 30%;
+  height: 10em;
+}
+  
+.e  {
+  width: 30%;
+  height: 10em;
+}
+  
+.f  {
+  width: 30%;
+  height: 10em;
+}
+
+.g  {
+  width: 30%;
+  height: 10em;
+}
+
+.h  {
+  width: 100%;
+  height: 20em;
+}
+  }
+
+  .container  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+/*  */
+/* Mobile */
+/*  */
+@media (max-width: 1600px) {
+
+.a  {
+  min-height: 10em;
+  text-align: center;
+}
+    
+.apples   {
+  width: 100%;
+}
+    
+.stuff   {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+    
+.fin    {
+  width: 100%;
+}
+    
+.b  {
+  width: 30%;
+  height: 10em;
+}
+    
+.c  {
+  width: 30%;
+  height: 10em;
+}
+    
+.d  {
+  width: 30%;
+  height: 10em;
+}
+    
+.e  {
+  width: 30%;
+  height: 10em;
+ }
+    
+.f  {
+  width: 30%;
+  height: 10em;
+}
+  
+.g  {
+  width: 30%;
+  height: 10em;
+}
+  
+.h  {
+  width: 100%;
+  height: 10em;
+}
+}
+/*  */
+/* Navigation Bar */
+/*  */
+/* Navigation Bar Orientation and Formatting */
+.navigationbar {
+  background-color: darkblue;
+  position: fixed; 
+  top: 0; 
+  right: 10%;
+  width: auto;
+  border-radius: 8px;
+}
+/* CSS Text(Link) Navigation Bar */
+.navigationbar a {
+  float: left;
+  display: block;
+  color: #acecff;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+/* Hover Navigation Bar */
+.navigationbar a:hover {
+  background: #acecff;
+  color: darkblue;
+  font-weight: 900;
+  }
+/*  */
+/* Body CSS Formatting */
+/*  */
+/* Background Color */
 body {
   background: peachpuff;
 }
+  /*  */
+  /* A Formatting */
+  /*  */
+  /* A Background Color */
+.a  {
+    background-color: rgba(255, 255, 255, 0.575);
+  }
+  
+  /* */ 
+  /* B Div Formatting */
+  /* */
+  /* B Background color */
+  .b    {
+    background-color: rgba(238, 130, 238, 0.527);
+  }
+  /* B Font Formatting */
+
+  /* C Div Formatting */
+  /*  */
+  /* C Background Color */
+  .c  {
+    background-color: rgba(255, 140, 0, 0.424);
+  }
+   /* D Background Color */
+   .d  {
+    background-color: rgba(0, 255, 0, 0.589);
+  }
+  /*  */
+  .e  {
+    background-color: rgba(47, 0, 255, 0.589);
+  }
+  /*  */
+  .f  {
+    background-color: rgba(255, 0, 170, 0.589);
+  }
+  /*  */
+  .g  {
+    background-color: rgba(255, 0, 0, 0.589);
+  }
+  /*  */
+  .h  {
+    background-color: rgba(0, 234, 255, 0.589);
+  }
