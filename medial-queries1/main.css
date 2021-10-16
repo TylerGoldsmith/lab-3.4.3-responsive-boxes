@@ -1,3 +1,206 @@
+/*  */
+/* Desktop */
+/*  */
+/* Formatting Container and Div orientation */
+@media (min-width: 1750px) {
+.container {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .a    {
+    min-width: 100%;
+    min-height: 240px;
+  }
+  
+  div > .b,.c {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 600px;
+  }
+  
+  .b    {
+    min-width: 80%;
+  }
+  
+  .c    {
+    min-width: 20%;
+  }
+/* Desktop Picture Formatting */
+  .b img {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: darkblue solid 2px;
+    border-radius: 4px;
+  }
+/* Desktop C Div Text */
+.c    {
+  font-size: 70%;
+}
+/* Smile Text Larger & Animation */
+#smile   {
+  font-size: 125px;
+  animation-name: smile1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes smile1  {
+  0%    {transform: rotate(0deg) translate(0);}
+  100%  {transform: rotate(45deg) translate(-100%,-100%);}
+  }
+}
+/*  */
+/* Desktop Smaller Screen */
+/*  */
+@media (min-width: 1750px),(max-width:2400px)  {
+.c    {
+  font-size: 50%;
+}
+}
+/*  */
+/* Desktop Bigger Screen */
+/*  */
+@media (min-width: 2400px)  {
+.c    {
+  font-size: 70%;
+  }
+}
+/*  */
+/* Mobile */
+/*  */
+/* Formatting Container and Div orientation */
+@media (max-width: 1750px)  {
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  gap: 10px;
+  margin: 10px;
+}   
+
+.a    {
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 120px;
+}
+   
+.b    {
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 400px;
+}
+
+.c    {
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 200px;
+}
+/* Mobile Picture Size */
+.b img {
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+  border: darkblue solid 2px;
+  border-radius: 4px;
+}
+/* Small :) */
+#smile   {
+  font-size: 125px;
+  animation-name: smile1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes smile1  {
+  0%    {transform: rotate(0deg) translate(0);}
+  100%  {transform: rotate(-45deg) translate(800px,-600px);}
+  }
+}
+/*  */
+/* Navigation Bar */
+/*  */
+/* Navigation Bar Orientation and Formatting */
+.navigationbar {
+  background-color: darkblue;
+  position: fixed; 
+  top: 0; 
+  right: 10%;
+  width: auto;
+  border-radius: 8px;
+}
+/* CSS Text(Link) Navigation Bar */
+.navigationbar a {
+  float: left;
+  display: block;
+  color: #acecff;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+/* Hover Navigation Bar */
+.navigationbar a:hover {
+  background: #acecff;
+  color: darkblue;
+  font-weight: 900;
+}
+/*  */
+/* Body Formatting */
+/*  */
+/* Body Background Color */
 body {
   background: blanchedalmond;
 }
+/*  */
+/* Div Formatting */
+/*  */
+/* Div Color and Text Formatting */
+div .a,.b,.c   {
+  text-align: center;
+  font-size: 400;
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+/*  */
+/* A Formatting */
+/*  */
+/* A Background Color */
+.a  {
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.575);
+}
+
+/* */ 
+/* B Div Formatting */
+/* */
+/* B Background color */
+.b    {
+  background-color: rgba(238, 130, 238, 0.527);
+}
+/* B Font Formatting */
+.b a  {
+  font-size: xx-small;
+}
+/* B List Formatting */
+.b ul {
+  list-style-type: none;
+}
+/*  */
+.b li {
+  display: inline-block;
+}
+/*  */
+/* C Div Formatting */
+/*  */
+/* C Background Color */
+.c  {
+  background-color: rgba(255, 140, 0, 0.424);
+}
+/* *   {
+  border: solid teal .5px;
+} */
