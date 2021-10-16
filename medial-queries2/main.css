@@ -1,3 +1,212 @@
-body {
-  background: papayawhip;
+/* Desktop */
+/*  */
+/* Formatting Container and Div orientation */
+@media (min-width: 1600px) {
+
+.a  {
+  min-height: 20em;
+  text-align: center;
 }
+
+.head   {
+  width: 100%;
+}
+
+.group   {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.fun    {
+  width: 23%;
+}
+
+.b  {
+  width: 100%;
+  height: 10em;
+}
+
+.c  {
+  width: 30%;
+  height: 10em;
+}
+
+.d  {
+  width: 30%;
+  height: 10em;
+}
+
+.e  {
+  width: 30%;
+  height: 10em;
+}
+
+.f  {
+  height: 20em;
+}
+}
+/* Mobile */
+/*  */
+/* Formatting Container and Div orientation */
+@media (max-width: 1600px) {
+.group   {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.a  {
+  min-height: 10em;
+  text-align: center;
+}
+  
+.head   {
+  width: 100%;
+}
+  
+.group   {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  }
+  
+  .fun    {
+    width: 100%;
+    height: 10em;
+  }
+  
+  .b  {
+    width: 100%;
+    height: 10em;
+  }
+  
+  .c  {
+    width: 32%;
+    height: 10em;
+  }
+  
+  .d  {
+    width: 32%;
+    height: 10em;
+  }
+  
+  .e  {
+    width: 32%;
+    height: 10em;
+  }
+  
+  .f  {
+    height: 10em;
+  }
+}
+/*  */
+/* Formatting Container and Div orientation */
+/*  */
+.container  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.d  {
+  background-color: cadetblue;
+}
+
+.e    {
+  background-color: chocolate;
+}
+
+.f    {
+  background-color: coral;
+}
+
+  /*  */
+  /* Navigation Bar */
+  /*  */
+  /* Navigation Bar Orientation and Formatting */
+  .navigationbar {
+    background-color: darkblue;
+    position: fixed; 
+    top: 0; 
+    right: 10%;
+    width: auto;
+    border-radius: 8px;
+  }
+  /* CSS Text(Link) Navigation Bar */
+  .navigationbar a {
+    float: left;
+    display: block;
+    color: #acecff;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  /* Hover Navigation Bar */
+  .navigationbar a:hover {
+    background: #acecff;
+    color: darkblue;
+    font-weight: 900;
+  }
+  /*  */
+  /* Body Formatting */
+  /*  */
+  /* Body Background Color */
+  body {
+    background: papayawhip;
+  }
+  /*  */
+  /* Div Formatting */
+  /*  */
+  /* Div Color and Text Formatting */
+  div .a,.b,.c   {
+    text-align: center;
+    font-size: 400;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+  /*  */
+  /* A Formatting */
+  /*  */
+  /* A Background Color */
+  .a  {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.575);
+  }
+  
+  /* */ 
+  /* B Div Formatting */
+  /* */
+  /* B Background color */
+  .b    {
+    background-color: rgba(238, 130, 238, 0.527);
+  }
+  /* B Font Formatting */
+  .b a  {
+    font-size: xx-small;
+  }
+  /* B List Formatting */
+  .b ul {
+    list-style-type: none;
+  }
+  /*  */
+  .b li {
+    display: inline-block;
+  }
+  /*  */
+  /* C Div Formatting */
+  /*  */
+  /* C Background Color */
+  .c  {
+    background-color: rgba(255, 140, 0, 0.424);
+  }
+  /* *   {
+    border: solid teal .5px;
+  } */
